@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
 
 :root {
   --main: #26aaaa;
@@ -7,7 +7,7 @@
 
 body {
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -108,7 +108,7 @@ body {
 /* Start of hero section */
 
 .hero-section {
-  padding-top: 101px;
+  padding-top: 280px;
   padding-bottom: 128px;
 }
 
@@ -263,17 +263,30 @@ body {
 .timeline-section__list__item__div h3 {
   font-size: 22px;
   font-weight: 700;
+  max-width: 56%;
 }
 
 .timeline-section__list__item__div p {
   font-size: 16px;
   font-weight: 300;
   margin-top: 20px;
+  max-width: 81%;
 }
 
 @media (max-width: 992px) {
   .timeline-section__list__h1 {
     font-size: 38px;
+  }
+  .timeline-section__list__item__div h3 {
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 100%;
+  }
+  .timeline-section__list__item__div p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -284,7 +297,17 @@ body {
     display: none;
   }
 }
-
+@media (max-width: 500px) {
+  .timeline-section__list__container {
+    padding-left: 0px;
+  }
+  .timeline-section__list__item__div h3 {
+    font-size: 17px;
+  }
+  .timeline-section__list__item__div p {
+    font-size: 13px;
+  }
+}
 /* End of timeline section */
 
 /* Start of info section */
@@ -411,7 +434,7 @@ body {
 .footer-middle a {
   color: white;
   text-decoration: underline;
-  margin-left: -50px;
+  margin-left: 20px;
   font-size: 14px;
   font-weight: 300;
 }
