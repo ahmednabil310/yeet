@@ -340,7 +340,8 @@ body {
 
 .footer-container {
   border-top: 1px solid var(--main);
-  padding: 68px 128px 100px 128px;
+  padding-top: 68px;
+  padding-bottom: 128px;
   color: white;
 }
 .footer-left a {
@@ -367,6 +368,13 @@ body {
   margin-right: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 991.98px) {
+  .footer-middle a {
+    margin-left: 0;
+  }
+}
+
 /* End of footer */
 
 @media (max-width: 575.98px) {
