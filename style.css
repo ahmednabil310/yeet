@@ -10,7 +10,7 @@ body {
   background-color: var(--bg-color);
 }
 
-/* navbar */
+/* Start of navbar */
 
 .navbar {
   background-color: var(--bg-color);
@@ -46,7 +46,11 @@ body {
   cursor: pointer;
 }
 
+/* End of navbar */
+
 /* sections */
+
+/* Start of genral sections styles */
 
 .section-container {
   color: var(--main);
@@ -84,6 +88,10 @@ body {
   );
   transform: scale(1.03);
 }
+
+/* End of genral sections styles */
+
+/* Start of hero section */
 
 .hero-section {
   height: 115vh;
@@ -125,7 +133,41 @@ body {
   color: white;
 }
 
-/* timeline section */
+/* End of hero section */
+
+/* Start of Tokenmics */
+.tokenomics-container {
+  padding: 64px 128px 121px 128px;
+  background-color: #1a1f27;
+  color: white;
+}
+.tokenmocis-data-inner {
+  margin-bottom: 28px;
+}
+.tokenmocis-title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.tokenmocis-data-inner {
+  border: 1px solid var(--main);
+  padding: 20px 0px 20px 75px;
+}
+.tokenmocis-data-inner-title {
+  margin-bottom: 11px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.tokenmocis-data-inner span {
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 14px;
+}
+/* End of Tokenmics */
+
+/* Start of timeline section */
 
 .timeline-section {
   background-image: url(/assets/background.png);
@@ -199,37 +241,9 @@ body {
   font-weight: 300;
   margin-top: 20px;
 }
-/* Start of Tokenmics */
-.tokenomics-container {
-  padding: 64px 128px 121px 128px;
-  background-color: #1a1f27;
-  color: white;
-}
-.tokenmocis-data-inner {
-  margin-bottom: 28px;
-}
-.tokenmocis-title {
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
-  margin-bottom: 26px;
-}
-.tokenmocis-data-inner {
-  border: 1px solid var(--main);
-  padding: 20px 0px 20px 75px;
-}
-.tokenmocis-data-inner-title {
-  margin-bottom: 11px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-}
-.tokenmocis-data-inner span {
-  line-height: 24px;
-  font-weight: 300;
-  font-size: 14px;
-}
-/* End of Tokenmics */
+
+/* End of timeline section */
+
 /* Start of info section */
 .info-container {
   background-color: #1a1f27;
