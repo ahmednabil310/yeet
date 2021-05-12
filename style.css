@@ -60,7 +60,6 @@ body {
 
 .navbar .ul-icons li img {
   padding: 0 !important;
-  margin-right: 16px;
   cursor: pointer;
 }
 
@@ -467,4 +466,18 @@ body {
 .nav-pills .show > .nav-link {
   color: var(--main);
   background: none;
+}
+
+.nav-icon {
+  padding: 4px;
+  margin-right: 16px;
+}
+
+.nav-icon img {
+  height: 20px;
+}
+
+.nav-icon:hover {
+  background: #165858;
+  border-radius: 50%;
 }
