@@ -311,7 +311,13 @@ body {
   font-weight: 500;
 }
 /* Start of footer */
+.footer-container-top {
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
 .footer-container {
+  border-top: 1px solid var(--main);
   padding: 68px 128px 100px 128px;
   color: white;
 }
