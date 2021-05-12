@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
 
 :root {
   --main: #26aaaa;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -240,28 +240,27 @@ body {
   list-style-type: none;
 }
 
-.timeline-section__list__ul__li {
-  display: flex;
+.timeline-section__list__item {
   margin-top: 80px;
 }
 
-.timeline-section__list__ul__li__p {
+.timeline-section__list__item__span {
   color: var(--main);
   font-size: 26px;
   font-weight: 700;
   margin-right: 20px;
 }
 
-.timeline-section__list__ul__li__div {
+.timeline-section__list__item__div {
   margin-top: 8px;
 }
 
-.timeline-section__list__ul__li__div__h3 {
+.timeline-section__list__item__div h3 {
   font-size: 22px;
   font-weight: 700;
 }
 
-.timeline-section__list__ul__li__div__p {
+.timeline-section__list__item__div p {
   font-size: 16px;
   font-weight: 300;
   margin-top: 20px;
