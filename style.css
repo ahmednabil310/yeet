@@ -14,8 +14,7 @@ body {
 
 .navbar {
   background-color: var(--bg-color);
-  padding-left: 128px;
-  padding-right: 128px;
+  max-width: 1400px;
   z-index: 999;
   padding-top: 20px;
   padding-bottom: 20px;
