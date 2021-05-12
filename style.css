@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
 }
 
 /* navbar */
@@ -48,9 +49,40 @@ body {
 /* sections */
 
 .section-container {
-  background-color: var(--bg-color);
   color: var(--main);
   padding: 95px 6%;
+}
+
+.section-container__button {
+  border-radius: 20px;
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transition: all 325ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 325ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.section-container__button:hover {
+  text-decoration: none;
+  color: white;
+  background: rgb(16, 13, 57);
+  background: -moz-linear-gradient(
+    35deg,
+    rgba(16, 13, 57, 1) 0%,
+    rgba(38, 170, 170, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    35deg,
+    rgba(16, 13, 57, 1) 0%,
+    rgba(38, 170, 170, 1) 100%
+  );
+  background: linear-gradient(
+    35deg,
+    rgba(16, 13, 57, 1) 0%,
+    rgba(38, 170, 170, 1) 100%
+  );
+  transform: scale(1.03);
 }
 
 .hero-section {
@@ -84,40 +116,86 @@ body {
   background: none;
   border: 1px solid var(--main);
   color: var(--main);
-  border-radius: 20px;
   padding: 15px 38px;
-  margin-top: 13px;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  -webkit-transition: all 325ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: all 325ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.hero-section__buttons__button:hover {
-  text-decoration: none;
-  color: white;
-  background: rgb(16, 13, 57);
-  background: -moz-linear-gradient(
-    35deg,
-    rgba(16, 13, 57, 1) 0%,
-    rgba(38, 170, 170, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    35deg,
-    rgba(16, 13, 57, 1) 0%,
-    rgba(38, 170, 170, 1) 100%
-  );
-  background: linear-gradient(
-    35deg,
-    rgba(16, 13, 57, 1) 0%,
-    rgba(38, 170, 170, 1) 100%
-  );
-  transform: scale(1.03);
 }
 
 .hero-section__buttons__button--first {
   background-color: var(--main);
   margin-bottom: 25px;
   color: white;
+}
+
+/* timeline section */
+
+.timeline-section {
+  background-image: url(/assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.timeline-section-wraper {
+  max-width: 1400px;
+}
+
+.timeline-section__header__h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.timeline-section__header__p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 60px;
+}
+
+.timeline-section__header__buttons__a {
+  background: white;
+  color: black;
+  padding: 15px 50px;
+}
+
+.timeline-section__list {
+  background-color: #111820;
+  padding: 20px;
+  margin-top: 120px;
+  max-width: 850px;
+  border: 2px solid var(--main);
+}
+
+.timeline-section__list__h1 {
+  color: var(--main);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.timeline-section__list__ul {
+  list-style-type: none;
+}
+
+.timeline-section__list__ul__li {
+  display: flex;
+  margin-top: 80px;
+}
+
+.timeline-section__list__ul__li__p {
+  color: var(--main);
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.timeline-section__list__ul__li__div {
+  margin-top: 8px;
+}
+
+.timeline-section__list__ul__li__div__h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.timeline-section__list__ul__li__div__p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
 }
