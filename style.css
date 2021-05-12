@@ -6,6 +6,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
 }
@@ -240,6 +241,10 @@ body {
   list-style-type: none;
 }
 
+.timeline-section__list__container {
+  padding-left: 40px;
+}
+
 .timeline-section__list__item {
   margin-top: 80px;
 }
@@ -451,4 +456,10 @@ body {
   .tokenmocis-data-inner {
     padding: 20px 0px 20px 10px;
   }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--main);
+  background: none;
 }
