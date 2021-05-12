@@ -14,7 +14,7 @@ body {
 
 .navbar {
   background-color: var(--bg-color);
-  padding: 0 6%;
+  max-width: 1400px;
   z-index: 999;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -359,6 +359,11 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  .team-section__member {
+    margin-bottom: 20px;
+  }
+}
 /* Start of footer */
 .footer-container-top {
   padding-top: 51px;
@@ -397,8 +402,31 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .footer-container {
+    flex-direction: column !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer-container div {
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+
+  .footer-left {
+    order: 3;
+  }
+  .footer-middle {
+    order: 2;
+  }
   .footer-middle a {
     margin-left: 0;
+  }
+  .footer-right {
+    justify-content: center !important;
+    order: 1;
   }
 }
 
