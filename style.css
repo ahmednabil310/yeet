@@ -16,11 +16,13 @@ body {
   background-color: var(--bg-color);
   padding-left: 128px;
   padding-right: 128px;
+  z-index: 999;
 }
-.navbar .navbar-brand {
-  font-size: 25px;
-  font-weight: bold;
+
+.navbar__logo {
+  max-width: 165px;
 }
+
 .navbar a {
   color: white;
 }
