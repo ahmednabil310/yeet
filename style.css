@@ -328,7 +328,7 @@ body {
 /* Start of team section */
 
 .team-section {
-  padding-top: 237px;
+  padding-top: 143px;
   padding-bottom: 152px;
 }
 
@@ -363,9 +363,20 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+@media screen and (max-width: 830px) and (min-width: 767px) {
+  .section-container {
+    padding: 95px 2%;
+  }
+}
 @media (max-width: 767px) {
   .team-section__member {
     margin-bottom: 20px;
+  }
+  .team-section__member__img {
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 15px;
   }
 }
 /* Start of footer */
