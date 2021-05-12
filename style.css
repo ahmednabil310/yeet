@@ -140,6 +140,18 @@ body {
   margin-bottom: 25px;
   color: white;
 }
+@media (max-width: 991.98px) {
+  .hero-section__header__h1,
+  .timeline-section__list__h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-section__header__h1,
+  .timeline-section__list__h1 {
+    font-size: 30px;
+  }
+}
 
 /* End of hero section */
 
@@ -355,13 +367,6 @@ body {
   cursor: pointer;
 }
 /* End of footer */
-
-@media (max-width: 991.98px) {
-  .hero-section__header__h1,
-  .timeline-section__list__h1 {
-    font-size: 38px;
-  }
-}
 
 @media (max-width: 575.98px) {
   .tokenmocis-data-inner {
