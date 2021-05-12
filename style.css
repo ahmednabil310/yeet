@@ -28,7 +28,7 @@ body {
 .navbar__logo {
   max-width: 165px;
 }
-@media (max-width: 1035px) {
+@media (max-width: 1036px) {
   .navbar__logo {
     max-width: 120px;
   }
