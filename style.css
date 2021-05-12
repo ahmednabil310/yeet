@@ -152,3 +152,30 @@ body {
   font-size: 14px;
 }
 /* End of Tokenmics */
+/* Start of info section */
+.info-container {
+  background-color: #1a1f27;
+  color: white;
+  padding: 53px 0px 70px 0px;
+}
+.info-title {
+  font-style: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.info-pargraph {
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.info-link {
+  color: var(--main);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.info-section__button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+/* End of info section */
