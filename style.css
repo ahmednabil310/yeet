@@ -5,6 +5,10 @@
   --bg-color: #0e1216;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -293,6 +297,7 @@ body {
   color: white;
   padding: 53px 0px 70px 0px;
 }
+
 .info-title {
   font-size: 35px;
   font-weight: 700;
