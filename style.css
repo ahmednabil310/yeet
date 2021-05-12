@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
 
 :root {
   --main: #26aaaa;
@@ -11,7 +11,7 @@ html {
 
 body {
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -28,7 +28,7 @@ body {
 .navbar__logo {
   max-width: 165px;
 }
-@media (max-width: 1036px) {
+@media (max-width: 1042px) {
   .navbar__logo {
     max-width: 120px;
   }
@@ -373,11 +373,11 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-@media screen and (max-width: 830px) and (min-width: 767px) {
+/* @media screen and (max-width: 830px) and (min-width: 767px) {
   .section-container {
     padding: 95px 2%;
   }
-}
+} */
 @media (max-width: 767px) {
   .team-section__member {
     margin-bottom: 20px;
