@@ -122,11 +122,12 @@ body {
 
 .hero-section__header__img {
   width: 215px;
-  transition: all 2s ease-in-out;
+  animation: launching 1.2s cubic-bezier(0, -0.01, 0.555, 1.515);
+  animation-iteration-count: 1;
 }
-.hero-section__header__img:hover {
+/* .hero-section__header__img:hover {
   transform: translateY(3800px);
-}
+} */
 .hero-section__header__h1 {
   font-size: 60px;
   font-weight: 700;
@@ -270,17 +271,30 @@ body {
 .timeline-section__list__item__div h3 {
   font-size: 22px;
   font-weight: 700;
+  max-width: 56%;
 }
 
 .timeline-section__list__item__div p {
   font-size: 16px;
   font-weight: 300;
   margin-top: 20px;
+  max-width: 81%;
 }
 
 @media (max-width: 992px) {
   .timeline-section__list__h1 {
     font-size: 38px;
+  }
+  .timeline-section__list__item__div h3 {
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 100%;
+  }
+  .timeline-section__list__item__div p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -291,7 +305,17 @@ body {
     display: none;
   }
 }
-
+@media (max-width: 500px) {
+  .timeline-section__list__container {
+    padding-left: 0px;
+  }
+  .timeline-section__list__item__div h3 {
+    font-size: 17px;
+  }
+  .timeline-section__list__item__div p {
+    font-size: 13px;
+  }
+}
 /* End of timeline section */
 
 /* Start of info section */
@@ -419,7 +443,7 @@ body {
 .footer-middle a {
   color: white;
   text-decoration: underline;
-  margin-left: -50px;
+  margin-left: 20px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -503,5 +527,14 @@ body {
   40%,
   60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes launching {
+  0% {
+    transform: translateY(2000px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
