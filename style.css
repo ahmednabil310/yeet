@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
 
 :root {
   --main: #26aaaa;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -157,7 +157,8 @@ body {
 
 /* Start of Tokenmics */
 .tokenomics-container {
-  padding: 64px 128px 121px 128px;
+  padding-top: 64px;
+  padding-bottom: 128px;
   background-color: #1a1f27;
   color: white;
 }
