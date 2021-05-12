@@ -272,3 +272,42 @@ body {
   padding: 15px 35px;
 }
 /* End of info section */
+
+/* Start of team section */
+
+.team-section {
+  padding-top: 237px;
+  padding-bottom: 152px;
+}
+
+.team-section__header {
+  color: white;
+}
+
+.team-section__header__h1 {
+  font-style: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.team-section__header__p {
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+.team-section__members {
+  max-width: 940px;
+  margin-bottom: 20px;
+}
+
+.team-section__member__img {
+  margin-bottom: 20px;
+}
+
+.team-section__member__p {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
