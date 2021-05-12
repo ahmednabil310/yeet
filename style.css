@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
 
 :root {
   --main: #26aaaa;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -29,7 +29,6 @@ body {
   padding: 0 !important;
   margin-right: 20px;
   transition: all 350ms ease;
-
   font-size: 16px;
   font-weight: 300;
 }
@@ -272,6 +271,7 @@ body {
   padding: 15px 35px;
 }
 /* End of info section */
+<<<<<<< HEAD
 
 /* Start of team section */
 
@@ -311,3 +311,35 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+=======
+/* Start of footer */
+.footer-container {
+  padding: 68px 128px 100px 128px;
+  color: white;
+}
+.footer-left a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: all 350ms ease;
+  color: white;
+}
+.footer-left a:hover {
+  color: var(--main);
+  text-decoration: none;
+}
+.footer-middle a {
+  color: white;
+  text-decoration: underline;
+  margin-left: -50px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer-container img {
+  padding: 0 !important;
+  margin-right: 16px;
+  cursor: pointer;
+}
+/* End of footer */
+>>>>>>> a084e8cc13a0c5faa3d1073a221f44ffe5cf0c0d
