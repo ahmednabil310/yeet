@@ -29,7 +29,7 @@ body {
   padding: 0 !important;
   margin-right: 20px;
   transition: all 350ms ease;
-  font-family: Poppins, sans-serif;
+
   font-size: 16px;
   font-weight: 300;
 }
@@ -199,3 +199,61 @@ body {
   font-weight: 300;
   margin-top: 20px;
 }
+/* Start of Tokenmics */
+.tokenomics-container {
+  padding: 64px 128px 121px 128px;
+  background-color: #1a1f27;
+  color: white;
+}
+.tokenmocis-data-inner {
+  margin-bottom: 28px;
+}
+.tokenmocis-title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.tokenmocis-data-inner {
+  border: 1px solid var(--main);
+  padding: 20px 0px 20px 75px;
+}
+.tokenmocis-data-inner-title {
+  margin-bottom: 11px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.tokenmocis-data-inner span {
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 14px;
+}
+/* End of Tokenmics */
+/* Start of info section */
+.info-container {
+  background-color: #1a1f27;
+  color: white;
+  padding: 53px 0px 70px 0px;
+}
+.info-title {
+  font-style: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.info-pargraph {
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.info-link {
+  color: var(--main);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.info-section__button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+/* End of info section */
