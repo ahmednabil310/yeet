@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #0e1216;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar a {
+  color: white;
+}
+
+.navbar .ul-words li a {
+  padding: 0 !important;
+  margin-right: 20px;
+  transition: all 350ms ease;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.navbar .ul-words li .last-child {
+  margin-right: 29px;
+}
+.navbar .ul-words li a:hover {
+  color: #26aaaa;
+}
+
+.navbar .ul-icons li img {
+  padding: 0 !important;
+  margin-right: 16px;
+  cursor: pointer;
+}
